@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class HealtController {
+public class HealthController {
     @GetMapping("/health")
     public String health() {
         return "A API tá rodando fio";
